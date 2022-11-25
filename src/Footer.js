@@ -43,8 +43,8 @@ function Footer(props) {
                   <div class="footer-logo">
                     <a href="index.html">
                       <img
-                        src="https://i.ibb.co/QDy827D/ak-logo.png"
-                        class="img-fluid"
+                        src="https://images.pexels.com/photos/11077579/pexels-photo-11077579.jpeg?auto=compress&cs=tinysrgb&w=1600" width="40%" height="20%"
+                        class="img-fluidName"
                         alt="logo"
                       />
                     </a>
@@ -134,7 +134,7 @@ function Footer(props) {
           </div>
         </div>
         <ul className="arr">
-          {props.arr.map(value => {
+          {props.arr.map((value) => {
             return <li>{value}</li>;
           })}
         </ul>
