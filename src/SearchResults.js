@@ -1,12 +1,17 @@
-import React from "react";
+import React,{useState} from "react";
 import data from "./data/fakeBookings.json";
 const SearchResults = () => {
+  const [highlighted, sethighlighted] = useState('grey');
+function highlightedHandler (){
+sethighlighted(highlighted=='grey'?"white":"grey")
+}
+
   console.log(data);
   return (
     <div class="container">
       <table class="table">
         <thead>
-          <tr>
+          <tr onClick={highlightedHandler} style={{backgroundColor:highlighted}}>
             <th scope="col">ID</th>
             <th scope="col">Title</th>
             <th scope="col">FirstName</th>

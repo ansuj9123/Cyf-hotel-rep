@@ -3,8 +3,9 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: black;
   position: relative;
+ 
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
@@ -22,7 +23,7 @@ ul {
 .cta-text h4 {
   color: #fff;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 2px;
 }
 .cta-text span {
@@ -161,4 +162,7 @@ ul {
 
 .arr {
   color: white;
+}
+#button-moving {
+  padding-left: 700px;
 }
