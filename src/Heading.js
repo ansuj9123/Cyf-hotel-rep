@@ -5,7 +5,7 @@ const Heading = () => {
     <div>
       <img
         width="100"
-        height="50"
+        height="60"
         src="https://static.dribbble.com/users/1071499/screenshots/3265585/lakeside-hotel-logo.png"
       />
     </div>

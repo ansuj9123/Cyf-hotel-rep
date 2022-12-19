@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+ background-color: #85898b7c;
+
 }
 
 .search-wrapper {
@@ -33,3 +35,28 @@ position: relative;
 
 }
 
+.btn-button{
+  background-color: blue;
+  color: white;
+}
+.clicksubmit{
+  margin-top:  10px;
+  border-radius: 7px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+.form-name{
+  font-size: 20px;
+  color:blue;
+  
+}
+
+input{
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: 2px;
+  border-radius: 10px;
+}
