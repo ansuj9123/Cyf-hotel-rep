@@ -30,7 +30,7 @@ function CustomerProfile(props) {
     <h2>Customer Profile</h2>
     <p>id : {profile.id}</p>
     <p>email : {profile.email}</p>
-   {profile.vip && <p>phone number : {profile.phoneNumber}</p>}
+    {profile.vip && <p>phone number : {profile.phoneNumber}</p>}
     </div>
   );
 }
